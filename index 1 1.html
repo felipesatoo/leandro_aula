@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamburgueria Div's Burguer</title>
+  <style>
+    :root {
+      --cor-preto: #000000;
+      --cor-laranja1: #FF8C00;
+      --cor-laranja2: #FFA500;
+      --cor-branco: #FFFFFF;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--cor-preto);
+      color: var(--cor-branco);
+      margin: 0;
+    }
+
+    .header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: var(--cor-preto);
+    }
+
+    .titulo h1 {
+      color: var(--cor-laranja2);
+      font-size: 3rem;
+      margin-top: 0;
+      text-transform: uppercase;
+    }
+
+    .titulo p {
+      color: var(--cor-laranja1);
+      font-size: 1.5rem;
+      margin-bottom: 5px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: var(--cor-laranja2);
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    h3 {
+      color: var(--cor-laranja1);
+      font-size: 1.8rem;
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    li {
+      padding: 5px 0;
+      color: var(--cor-laranja1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: var(--cor-preto);
+    }
+
+    .submit-button {
+      display: inline-block;
+      background-color: var(--cor-laranja2);
+      color: var(--cor-preto);
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .submit-button:hover {
+      background-color: var(--cor-laranja1);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="titulo">
+      <p>Bem-vindo à</p>
+      <h1>
+        Hamburgueria Div's Burguer
+      </h1>
+    </div>
+  </header>
+  <main>
+    <section id="intro">
+      <h3>Uma Experiência Saborosa</h3>
+      <p>Na Hamburgueria Div's Burguer, cada lanche é uma obra de arte! Nossos hambúrgueres são feitos com ingredientes frescos e selecionados, combinando sabores únicos para uma experiência que você não vai encontrar em nenhum outro lugar.</p>
+      <p>Desde os clássicos até as criações mais ousadas, nosso cardápio é uma homenagem à criatividade da programação e ao prazer de uma boa refeição. Nosso compromisso é com a qualidade e a satisfação total de nossos clientes. Explore nossos lanches, refrigerantes e encontre a combinação perfeita para o seu apetite. Queremos que você se sinta em casa, saboreando o que há de melhor.</p>
+    </section>
+    <section id="menu-list">
+      <h2>Nosso Menu</h2>
+      <p>
+        Oferecemos uma variedade de hambúrgueres e bebidas para todos os gostos:
+      </p>
+      <ul>
+        <li>Lanches: The Bug Fixer, Stack Overflow, Kernel Panic</li>
+        <li>Refrigerantes: Coca-cola, Guaraná, Pepsi</li>
+      </ul>
+    </section>
+    <section id="outro">
+      <p>Pronto para se deliciar? Faça seu pedido agora mesmo e experimente o sabor que só a Hamburgueria Div's Burguer oferece. Nossa equipe está pronta para te atender e garantir que seu pedido chegue quentinho e perfeito na sua casa, ou que esteja pronto para ser retirado, conforme sua preferência. Clique no botão abaixo para começar!</p>
+    </section>
+  </main>
+  <footer>
+    <a href="./coleta.html" class="submit-button">Fazer Pedido</a>
+  </footer>
+</body>
+
+</html>
